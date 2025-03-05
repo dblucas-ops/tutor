@@ -5,6 +5,6 @@ jobs:
     runs-on: unbuntu-latest
     steps:
       - name: First step
-        run: echo "fosr Step"
+        run: echo "First Step"
       - name: Second step
         run: echo "Second step"
