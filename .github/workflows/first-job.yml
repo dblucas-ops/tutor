@@ -1,1 +1,10 @@
-dave
+name: First Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: unbuntu-latest
+    steps:
+      - name: First step
+        run: echo "fosr Step"
+      - name: Second step
+        run: echo "Second step"
